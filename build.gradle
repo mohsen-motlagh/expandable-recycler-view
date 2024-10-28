@@ -11,9 +11,7 @@ buildscript {
     maven {
       url 'https://maven.google.com'
     }
-//    jcenter()
     maven { url 'https://maven.fabric.io/public' }
-//    maven { url "https://repo.grails.org/grails/core/" }
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:8.5.0'
@@ -35,9 +33,7 @@ allprojects {
     maven {
       url 'https://maven.google.com'
     }
-//    jcenter()
     maven { url 'https://maven.fabric.io/public' }
-//    maven { url "https://repo.grails.org/grails/core/" }
   }
 }
 
