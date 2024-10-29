@@ -23,6 +23,7 @@ android {
   namespace 'com.thoughtbot.expandablecheckrecyclerview'
 }
 
+
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])
   implementation project(':expandablerecyclerview')
