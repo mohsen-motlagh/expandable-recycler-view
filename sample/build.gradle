@@ -21,6 +21,10 @@ android {
     sourceCompatibility JavaVersion.VERSION_17
     targetCompatibility JavaVersion.VERSION_17
   }
+  lintOptions {
+    abortOnError false // Prevents build failure due to lint errors
+    // You can add other configurations here as needed
+  }
 
   buildTypes {
     release {

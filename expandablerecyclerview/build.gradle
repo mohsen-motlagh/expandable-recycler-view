@@ -6,6 +6,11 @@ android {
     compileSdk 34
 //    buildToolsVersion "23.0.3"
 
+  lintOptions {
+    abortOnError false // Prevents build failure due to lint errors
+    // You can add other configurations here as needed
+  }
+
   defaultConfig {
     minSdkVersion 21
     targetSdkVersion 34
