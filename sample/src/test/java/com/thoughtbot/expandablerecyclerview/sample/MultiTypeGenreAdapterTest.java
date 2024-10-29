@@ -23,7 +23,7 @@ import static junit.framework.Assert.assertTrue;
  */
 
 @RunWith(RobolectricTestRunner.class)
-@Config(constants = BuildConfig.class, sdk = 21)
+//@Config(constants = BuildConfig.class, sdk = 21)
 public class MultiTypeGenreAdapterTest {
 
   private Context context;

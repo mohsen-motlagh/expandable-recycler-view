@@ -1,12 +1,13 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 group = 'com.github.mohsen-motlagh'
+
 android {
     compileSdk 34
 //    buildToolsVersion "23.0.3"
 
   defaultConfig {
-    minSdkVersion 16
+    minSdkVersion 21
     targetSdkVersion 34
   }
 
@@ -28,6 +29,14 @@ android {
 
 dependencies {
   //android
+  constraints {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
+      because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+    }
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0") {
+      because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+    }
+  }
   implementation 'androidx.appcompat:appcompat:1.7.0'
   implementation 'androidx.recyclerview:recyclerview:1.3.2'
 

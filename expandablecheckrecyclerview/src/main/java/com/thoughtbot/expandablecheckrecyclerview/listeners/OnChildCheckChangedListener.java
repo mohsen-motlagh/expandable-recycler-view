@@ -1,8 +1,6 @@
 package com.thoughtbot.expandablecheckrecyclerview.listeners;
 
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import com.thoughtbot.expandablecheckrecyclerview.viewholders.CheckableChildViewHolder;
 
 /**
  * Interface definition for a callback to be invoked when a CheckableChildViewHolder#checkable
